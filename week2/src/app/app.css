@@ -1,20 +1,38 @@
-.app {
-  padding-inline: 20px;
-  font-family: 'Neo Spoqa Sans';
+/* 컴포넌트 layout */
+.component-wrapper {
+  margin: 1.875rem;
+}
 
-  article {
-    margin-block: 36px;
+/* ui layout */
+.join-wrapper {
+  margin: 1.875rem;
+
+  .join-form {
+    position: relative;
+    padding-inline: var(--spacing-lg);
+    padding-block-start: var(--spacing-lg);
+    padding-block-end: var(--spacing-3xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-400);
   }
 
-  h1 {
-    font-size: 1.875rem;
-    font-weight: 400;
-    line-height: 2.25rem;
+  .join-list {
+    li {
+      &::after {
+        content: '';
+        display: block;
+        margin-block-start: var(--spacing-md);
+        padding-block-end: var(--spacing-md);
+        border-top: 1px solid #d9d9de;
+      }
+    }
   }
 
-  h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2rem;
+  .button {
+    position: absolute;
+    left: auto;
+    right: auto;
+    bottom: -22px;
+    inline-size: calc(100% - 3rem);
   }
 }

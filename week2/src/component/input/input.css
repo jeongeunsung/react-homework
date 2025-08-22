@@ -1,0 +1,52 @@
+label,
+input {
+  inline-size: 100%;
+}
+
+label {
+  display: block;
+  margin-block-end: var(--spacing-sm);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-midium);
+}
+
+input {
+  block-size: 1.25rem;
+  border: 0;
+  font-size: var(--font-size-xs);
+
+  &::placeholder {
+    color: #62636c;
+    opacity: 0.5;
+  }
+}
+
+.password-field {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 0.625rem;
+
+  &[type='password'] {
+    position: relative;
+    padding-inline-end: 1.25rem;
+  }
+
+  .button-eye {
+    inline-size: 1.25rem;
+    block-size: 1.25rem;
+    background: url('./src/images/input/icon-eye-close.svg') no-repeat;
+    background-size: 1.25rem;
+    flex-shrink: 0;
+
+    &.open {
+      background: url('./src/images/input/icon-eye-open.svg') no-repeat;
+    }
+  }
+}
+
+.error-text {
+  margin-block: 0.625rem 0;
+  color: var(--error);
+  font-size: 0.75rem;
+  line-height: 1.2;
+}

@@ -1,0 +1,16 @@
+.button {
+  background-color: var(--primary);
+  color: #fff;
+  line-height: 1.25;
+
+  &.full {
+    inline-size: 100%;
+    padding: var(--spacing-md);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-midium);
+  }
+
+  &.rounded {
+    border-radius: var(--radius-ful);
+  }
+}
