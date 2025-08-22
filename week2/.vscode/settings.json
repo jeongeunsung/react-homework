@@ -1,0 +1,44 @@
+{
+  "search.exclude": {
+    "**/coverage": true,
+    "**/node_modules": true
+  },
+
+  "javascript.autoClosingTags": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.paths": false,
+
+  "editor.codeActionsOnSave": {
+    // 파일 저장 시 ESLint가 감지한 모든 문제 자동 수정 설정
+    // - "explicit" : 파일을 직접 저장(예: Ctrl+S)할 때만 자동 수정
+    // - "always" : 직접 또는 자동(창 전환, 포커스 변경 등) 저장 시 자동 수정
+    // - "never" : 자동 수정 안함
+    // "source.organizeImports": "explicit",
+    // "source.fixAll.eslint": "explicit",
+    // "source.removeUnused": "explicit",
+  },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "formattingToggle.statusBarText": {
+    "formattingEnabled": "On $(verified-filled)",
+    "formattingDisabled": "Off $(verified)"
+  },
+
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true
+}

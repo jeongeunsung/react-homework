@@ -1,0 +1,86 @@
+:root {
+  /* primary colors */
+  --primary: #3578FF;
+  --primary-hover: #5B9DFF;
+  --primary-active: #1B55F5;
+  --primary-disabled: rgba(53, 120, 255, 0.5);
+  --primary-subtitle: #DAE8FF;
+  --primary-strong: #1735B6;
+
+  /* success colors */
+  --success:#02B748;
+  --success-hover:#0ADD5C;
+  --success-active: #05903C;
+  --success-disabled: rgba(2, 183, 72, 0.5);
+
+  /* information colors */
+  --info: #1157FF;
+  --info-hover: #327CFF;
+  --info-active: #023DF3;
+  --info-disabled: rgba(17, 87, 255, 0.5);
+
+  /* warning colors */
+  --warning: #F65900;
+  --warning-hover: #FF7610;
+  --warning-active: #CE4000;
+  --warning-disabled: rgba(246, 89, 0, 0.5);
+
+  /* error colors */
+  --error: #F71F1B;
+  --error-hover: #FF3834;
+  --error-active: #D00905;
+  --error-disabled: rgba(247, 31, 27, 0.5);
+
+  /* gray colors */
+  --gray-50: #FAFAFA;
+  --gray-100: #F4F4F5;
+  --gray-200: #E3E3E8;
+  --gray-300: #D2D2DA;
+  --gray-400: #9D9DAE;
+  --gray-500: #6C6D7E;
+  --gray-600: #4E4E5F;
+  --gray-700: #3C3C49;
+  --gray-800: #26262C;
+  --gray-900: #17171C;
+  --gray-950: #08080C;
+  
+  /* text */
+  --font-size-xs: .875rem;
+  --font-size-base: 1rem;
+  --font-size-sm: 1.25rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+
+  /* font weight */
+  --font-weight-normal: 400;
+  --font-weight-midium: 600;
+  --font-weight-bold: 700;
+
+  /* corner radius */
+  --radius-sm: 2px;     
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 16px;
+  --radius-ful: 999px;
+
+  /* stroke */
+  --stroke-thin: 0.25px;
+  --stroke-regular: 1.25px;
+  --stroke-thick: 2.25px;
+
+  /* spacing */
+  --spacing-sm: .5rem;
+  --spacing-md: .75rem;
+  --spacing-lg: 1.5rem;
+  --spacing-3xl: 4rem; 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* primary colors */
+    --primary-hover: #1B55F5;
+    --primary-active: #5B9DFF;
+    --primary-subtitle: #19328F;
+    --primary-strong: #BED8FF;
+  }
+}
