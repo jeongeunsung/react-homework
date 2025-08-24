@@ -44,23 +44,21 @@ export default function Form({ label, buttonLabel, formId }) {
   const inputData = getInputData(formId)
 
   return (
-    <>
-      <form action="" className="join-form">
-        <h2 className="sr-only">{label}</h2>
-        <ul className="join-list">
-          <InputList
-            formId={formId}
-            value={value}
-            setValue={setValue}
-            error={error}
-            setError={setError}
-            isOpen={isOpen}
-            setIsOpen={setIsOpen}
-            inputData={inputData}
-          />
-        </ul>
-        <ButtonList buttonLabel={buttonLabel} />
-      </form>
-    </>
+    <form action="" className="join-form">
+      <h2 className="sr-only">{label}</h2>
+      <ul className="join-list">
+        <InputList
+          formId={formId}
+          value={value}
+          setValue={setValue}
+          error={error}
+          setError={setError}
+          isOpen={isOpen}
+          setIsOpen={setIsOpen}
+          inputData={inputData}
+        />
+      </ul>
+      <ButtonList buttonLabel={buttonLabel} />
+    </form>
   )
 }
