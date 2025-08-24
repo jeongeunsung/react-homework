@@ -46,7 +46,7 @@ export default function Form({ label, buttonLabel, formId }) {
   return (
     <form action="" className="join-form">
       <h2 className="sr-only">{label}</h2>
-      <ul className="join-list">
+      <ul className={`${formId}-list`}>
         <InputList
           formId={formId}
           value={value}
