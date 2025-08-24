@@ -1,4 +1,4 @@
-import { ButtonList, InputList } from '../../component'
+import { Button, InputList } from '../../component'
 import {
   JOIN_BUTTONEYE_INITIAL_STATE,
   JOIN_INPUT_INITIAL_STATE,
@@ -58,7 +58,7 @@ export default function Form({ label, buttonLabel, formId }) {
           inputData={inputData}
         />
       </ul>
-      <ButtonList buttonLabel={buttonLabel} />
+      <Button buttonLabel={buttonLabel} />
     </form>
   )
 }
