@@ -1,14 +1,8 @@
-/* 컴포넌트 layout */
-.component-wrapper {
-  margin: 1.875rem;
-}
-
 /* ui layout */
 .join-wrapper {
-  padding: 1.875rem;
-
   .join-form {
     position: relative;
+    margin: 1.875rem;
     padding-inline: var(--spacing-lg);
     padding-block-start: var(--spacing-lg);
     padding-block-end: var(--spacing-3xl);
