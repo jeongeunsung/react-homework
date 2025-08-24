@@ -1,5 +1,20 @@
 import './input.css'
 
+/**
+ * Input 컴포넌트
+ * @param {Object} props
+ * @param {string} props.type - input 요소의 type
+ * @param {string} props.id - input 요소의 id, for, name
+ * @param {string} props.label - label 요소의 레이블
+ * @param {string} props.placeholder - 인풋 요소의 placeholder
+ * @param {string | number} props.value - 인풋 요소의 value 값
+ * @param {string} props.error - 에러 메시지
+ * @param {boolean} props.isOpen - 패스워드의 눈 버튼 보임/숨김
+ * @param {(e: React.FormEvent<HTMLInputElement>) => void} props.onInput - 인풋 요소의 실시간 입력값
+ * @param {(e: React.FocusEvent<HTMLInputElement>) => void} props.onBlur - 인풋 요소 포커스 벗어났을때 입력값
+ * @param {function} props.onClick - 패스워드 눈 버튼
+ */
+
 export default function Input({
   type,
   id,
