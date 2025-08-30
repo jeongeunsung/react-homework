@@ -51,20 +51,7 @@ import Input from './input'
 | onBlur      | function | ''     | 포커스 아웃 이벤트 핸들러         |
 | onClick     | function | ''     | 클릭 이벤트 핸들러                |
 
-### InputList 컴포넌트 props
-
-| 속성명    | 타입     | 기본값 | 설명                         |
-| --------- | -------- | ------ | ---------------------------- |
-| formId    | string   | ''     | form id(join, login)         |
-| value     | object   | {}     | Input 입력 값                |
-| setValue  | function | ''     | Input 입력 값 설정 함수      |
-| error     | object   | {}     | 오류 상태                    |
-| setError  | function | ''     | 오류 설정 함수               |
-| isOpen    | object   | {}     | 비밀번호 표시 상태           |
-| setIsOpen | function | ''     | 비밀번호 표시 상태 설정 함수 |
-| inputData | array    | []     | Input 데이터 배열            |
-
-## 접근성 고려사항
+## 전체 컴포넌트 접근성 고려사항
 
 ### HTML 구조
 
