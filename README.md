@@ -8,3 +8,6 @@ Bun 올인원 런타임과 Vite를 사용한 리액트 프로젝트 템플릿을
 
 - [2주차 회고](/week2/week2-retrospect.md)
   2주차 재사용 가능한 상태 있는(Stateful) 리액트 컴포넌트 구현 과제
+
+- [3주차 회고](/week3/week3-retrospect.md)
+  3주차 카드 검색 리스트 UI 리액트 구현 과제
